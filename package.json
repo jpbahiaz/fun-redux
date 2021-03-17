@@ -1,5 +1,5 @@
 {
-  "name": "f-redux",
+  "name": "fun-redux",
   "version": "1.0.0",
   "description": "Functional redux utilities",
   "main": "lib/index.js",
