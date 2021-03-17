@@ -1,4 +1,4 @@
-# Redux Utils
+# F-Redux
 
 Conjunto de utilitários para facilitar o gerenciamento de estado utilizando os princípios do Redux.
 
