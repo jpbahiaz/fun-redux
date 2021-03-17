@@ -12,7 +12,9 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
-    typescript(),
+    typescript({
+      declaration: true
+    }),
     analyzer(),
   ],
 }
