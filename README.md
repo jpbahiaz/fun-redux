@@ -2,6 +2,11 @@
 
 Conjunto de utilitários para facilitar o gerenciamento de estado utilizando os princípios do Redux.
 
+## Install
+```yarn add fun-redux```
+or
+```npm install fun-redux```
+
 ## Empty Actions
 Retorna um action creator que não possui payload
 ```ts
