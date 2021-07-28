@@ -10,7 +10,7 @@ or
 ## Empty Actions
 Retorna um action creator que não possui payload
 ```ts
-  import { emptyAction } from 'redux-utils'
+  import { emptyAction } from 'fun-redux'
 
   const increment = emptyAction('actions/increment')
 
