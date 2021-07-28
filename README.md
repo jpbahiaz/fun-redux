@@ -21,7 +21,7 @@ Retorna um action creator que não possui payload
 ## Actions
 Retorna um action creator que recebe como argumento o payload que será enviado na action.
 ```ts
-  import { action } from 'redux-utils'
+  import { action } from 'fun-redux'
 
   const increment = action<number>('actions/increment')
 
@@ -38,7 +38,7 @@ Retorna um action creator que recebe como argumento o payload que será enviado 
 Utilitário para retornar todas as actions possíveis para determinado import
 ```ts
   // actions.ts
-  import { action, emptyAction, ActionTypes } from 'redux-utils'
+  import { action, emptyAction, ActionTypes } from 'fun-redux'
 
   export const increment = emptyAction('actions/increment')
   export const decrement = emptyAction('actions/decrement')
@@ -62,7 +62,7 @@ A lib Immer é utilizada para facilitar a alteração segura do estado do redux.
 
 ```ts
   // reducer.ts
-  import { createReducer } form 'redux-utils'
+  import { createReducer } from 'fun-redux'
 
   import * as actions from './actions'
 
@@ -162,7 +162,7 @@ Isso possibilita a aplicação do utilitário ActionTypes para retornar o tipo d
 
 ```ts
   // actions.ts
-  import { action, emptyAction } from 'redux-utils'
+  import { action, emptyAction } from 'fun-redux'
 
   export const getUserSuccess = action<User>('users/getUserSuccess')
   export const getUserError = emptyAction('users/getUserError')
